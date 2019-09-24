@@ -53,8 +53,10 @@ public class TestAgile
 	    person1.setContactField(FieldName.ADDRESS, address.toString());
 	    
 	    person1.setCustomField("Date Of Joining", "Test Add Custom Field");
-	    
-	    // List of tags to add it to contact
+
+		System.out.println("personne test : " + person1);
+
+		// List of tags to add it to contact
 	    List<String> tags;
 	    
 	    tags = new ArrayList<String>();
@@ -92,5 +94,7 @@ public class TestAgile
 	    System.out.println("Exception message.. " + e.getMessage());
 	    e.printStackTrace();
 	}
+
+
     }
 }

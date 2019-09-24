@@ -30,9 +30,9 @@ public class TestContact
 
 	try
 	{
-	    String baseUrl = "https://ghanshyam.agilecrm.com/dev";
-	    String userEmail = "ghanshyam.raut@agilecrm.com";
-	    String restAPIKey = "***************************";
+		String baseUrl = "https://jeremie13.agilecrm.com/dev";
+		String userEmail = "jeremie@edreamest.com";
+		String restAPIKey = "nc969d2826rn781onbeupc9dr5";
 
 	    // Create a connection to Agile CRM
 	    APIManager apiManager = new APIManager(baseUrl, userEmail, restAPIKey);
@@ -54,7 +54,7 @@ public class TestContact
 	    tags.add("Service based");
 	    company.setTags(tags);
 
-	    //company = contactApi.addContact(company);
+	    company = contactApi.addContact(company);
 
 	    System.out.println("Added company... " + company);
 	    
@@ -89,7 +89,7 @@ public class TestContact
 
 	    //person1 = contactApi.addContact(person1);
 
-	    System.out.println("Added person... " + person1);
+	    System.err.println("Added person... " + person1);
 
 	    // ------------------- Adding a person end--------------------------
 	    
@@ -120,7 +120,7 @@ public class TestContact
 	    // ---------------- Get contact from email ------------------------
 	    Contact contact1 = contactApi.getContactFromEmail("annie@henry.com");
 
-	    System.out.println("Got contact by email... " + contact1);
+	    System.err.println("Got contact by email... " + contact1);
 
 	    // ------------ Adding tag to contact based on email -------------
 	    Tag tag = new Tag();
