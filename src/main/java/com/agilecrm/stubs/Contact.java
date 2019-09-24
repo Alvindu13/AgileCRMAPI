@@ -224,6 +224,7 @@ public class Contact
 	properties.add(contactField);
     }
 
+
     public void setCustomField(String fieldName, String fieldValue)
     {
 	if (properties == null)
