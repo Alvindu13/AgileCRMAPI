@@ -71,6 +71,16 @@ public class MainTest {
             System.err.println("Got contact by email... " + contact1);
 
 
+            // ---------------- GET ALL EVENTS ------------------------
+
+
+            // ---------------- GET EVENT BY CONTACT ------------------------
+
+
+
+
+
+
 
 
             // ---------Get contacts by filter field------------------
